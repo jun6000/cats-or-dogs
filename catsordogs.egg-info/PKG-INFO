@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: catsordogs
+Version: 0.0.1
+Summary: Tells you if the given image is that of a cat or a dog.
+Home-page: https://github.com/jun6000/cats-or-dogs
+Author: Arjun Vishanth
+Author-email: arjunvishanth@gmail.com
+Project-URL: Source, https://github.com/jun6000/cats-or-dogs/
+Keywords: cats,dogs,CNN,tensorflow,cats-or-dogs,model
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: opencv-python

@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+catsordogs.egg-info/PKG-INFO
+catsordogs.egg-info/SOURCES.txt
+catsordogs.egg-info/dependency_links.txt
+catsordogs.egg-info/requires.txt
+catsordogs.egg-info/top_level.txt
