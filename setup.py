@@ -28,7 +28,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/guides/single-sourcing-package-version/
-    version="0.0.1",  # Required
+    version="0.0.2",  # Required
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
@@ -107,7 +107,7 @@ setup(
     #
     #   py_modules=["my_module"],
     #
-    packages=find_packages(where="src"),  # Required
+    packages=find_packages(where="src/catsordogs"),  # Required
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
     # and refuse to install the project if the version does not match. See
