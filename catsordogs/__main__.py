@@ -1,10 +1,13 @@
-from cv2 import imread
+from pickimage import pickimage
 from preprocess import preprocess
 from classify import classify
+from logfatal import logfatal
 
 
 def main():
-    img = imread('test2.jpeg')
+    img = pickimage()
+    if img is None:
+        logfatal("Image file not chosen.")
     img = preprocess(img)
     classify(img)
 
