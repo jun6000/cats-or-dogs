@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "catsordogs"
+version = "0.0.8"
+authors = [
+    { name="Arjun Vishanth", email="arjunvishanth@gmail.com" },
+]
+description = "Tells you if the given image is that of a cat or a dog."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+catsordogs = "catsordogs:main"
+
+[project.urls]
+"Homepage" = "https://github.com/jun6000/cats-or-dogs"
+"Bug Tracker" = "https://github.com/jun6000/cats-or-dogs/issues"
