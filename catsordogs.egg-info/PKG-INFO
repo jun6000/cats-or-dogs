@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: catsordogs
-Version: 0.0.4
+Version: 0.0.5
 Summary: Tells you if the given image is that of a cat or a dog.
 Home-page: https://github.com/jun6000/cats-or-dogs
 Author: Arjun Vishanth

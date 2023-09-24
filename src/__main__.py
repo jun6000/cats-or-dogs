@@ -11,5 +11,6 @@ def main():
     img = preprocess(img)
     classify(img)
 
+
 if __name__ == '__main__':
     main()
