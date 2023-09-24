@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "catsordogs"
-version = "0.0.8"
+version = "0.0.9"
 authors = [
     { name="Arjun Vishanth", email="arjunvishanth@gmail.com" },
 ]
@@ -15,6 +15,11 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "tensorflow",
+    "numpy",
+    "opencv-python"
 ]
 
 [project.scripts]

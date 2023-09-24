@@ -5,7 +5,7 @@ from cv2 import imread
 def pickimage():
     Tk().withdraw()
     filepath = askopenfilename(
-        title='Select an image file',
+        title='Select an image file (JPG/JPEG/PNG/BMP)',
         filetypes=[
             ('Image files', '*.jpg *.jpeg *.png *.bmp'),
         ],

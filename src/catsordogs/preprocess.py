@@ -1,13 +1,13 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-import tensorflow as tf
-import numpy as np
+from tensorflow.image import rgb_to_grayscale, resize
+from numpy import expand_dims
 
 
 def preprocess(img):
-    img = tf.image.rgb_to_grayscale(img)
-    img = tf.image.resize(img, (256, 256))
+    img = rgb_to_grayscale(img)
+    img = resize(img, (256, 256))
     img /= 255.0
-    img = np.expand_dims(img, 0)
+    img = expand_dims(img, 0)
     return img
